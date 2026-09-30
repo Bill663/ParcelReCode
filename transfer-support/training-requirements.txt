@@ -1,0 +1,8 @@
+# Optional only: building/installing the Android app does not require Python.
+# Versions are intentionally not pinned: recreate and validate training results
+# before replacing the packaged model on a new Python platform.
+numpy
+Pillow
+scipy
+scikit-learn
+zxing-cpp

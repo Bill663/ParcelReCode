@@ -1,0 +1,38 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.parcelrecode.app"
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.parcelrecode.app"
+        minSdk 27
+        targetSdk 36
+        versionCode 6
+        versionName "6.0.0-4x6-two-scan"
+        resourceConfigurations += ["en", "zh-rCN"]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation project(":open-camera")
+    implementation "io.github.zxing-cpp:android:3.0.2"
+    implementation "com.google.mlkit:text-recognition:16.0.1"
+    implementation "com.google.zxing:core:3.5.3"
+    testImplementation "junit:junit:4.13.2"
+}

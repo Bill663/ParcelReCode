@@ -1,0 +1,17 @@
+﻿DeviceSerial=9d179d99
+ExtractedAt=2026-06-29T17:01:50
+LegacyDeviceApkPath=/data/app/~~5yMxygh2Ef70PufSRLm1bQ==/com.parcelrecode.app-a48SaM4eY5LCbpmm7fBYNw==/base.apk
+LegacyPulledApk=C:\Users\20102\OneDrive\Documents\ParcelReCode\LegacyVersion2\ParcelReLabel-legacy-device-base.apk
+LegacySha256=AFD2BF8E8F620465AF9C60176D670A027DE2997F0D1E641363712B21B4C5B25A
+LatestBuiltApk=C:\Users\20102\OneDrive\Documents\ParcelReCode\dist\ParcelReLabel.apk
+LatestBuiltSha256=92EC8C132EDAE0EF2D68F9222AA8EE97E6A2444935DF10978C931AC09778AE27
+
+PostUpdate pm path:
+package:/data/app/~~3EzQQXL17Z9wgI4SN0ci8g==/com.parcelrecode.app-M94Ua0_aeI2TLFVtyBFWEw==/base.apk
+
+PostUpdate dumpsys package selected fields:
+    codePath=/data/app/~~3EzQQXL17Z9wgI4SN0ci8g==/com.parcelrecode.app-M94Ua0_aeI2TLFVtyBFWEw==
+    versionCode=1 minSdk=27 targetSdk=36
+    versionName=1.0.0
+    firstInstallTime=2026-06-23 20:51:59
+    lastUpdateTime=2026-06-29 16:05:17

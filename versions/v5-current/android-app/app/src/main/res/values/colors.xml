@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#F97316</color>
+    <color name="brand_dark">#C2410C</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#F8FAFC</color>
+    <color name="ink">#1F2937</color>
+    <color name="muted">#64748B</color>
+    <color name="line">#E2E8F0</color>
+    <color name="soft">#FFF7ED</color>
+    <color name="danger">#9F1239</color>
+    <color name="status_success">#15803D</color>
+    <color name="status_success_line">#166534</color>
+    <color name="status_error">#DC2626</color>
+    <color name="status_error_line">#991B1B</color>
+    <color name="launcher_background">#FF6A00</color>
+</resources>

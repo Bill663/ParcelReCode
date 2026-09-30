@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Parcel ReLabel</string>
+    <string name="warehouse_relabeling">WAREHOUSE RELABELING</string>
+    <string name="language_prompt">Language</string>
+    <string-array name="language_options">
+        <item>English</item>
+        <item>简体中文</item>
+    </string-array>
+    <string name="take_photo">Take parcel photo</string>
+    <string name="choose_photo">Choose sample photo</string>
+    <string name="print_label">Print label</string>
+    <string name="ready_for_photo">Ready for a parcel photo.</string>
+    <string name="photo_preview_description">Parcel photo preview</string>
+    <string name="detected_carrier">Detected carrier</string>
+    <string name="carrier_select">Carrier for QR</string>
+    <string-array name="carrier_options">
+        <item>Auto</item>
+        <item>FedEx</item>
+        <item>USPS</item>
+        <item>UniUni</item>
+        <item>GOFO</item>
+        <item>SwiftX</item>
+        <item>SpeedX</item>
+        <item>OnTrac</item>
+    </string-array>
+    <string name="waiting">Waiting</string>
+    <string name="tracking_confirm">Tracking number - confirm before printing</string>
+    <string name="usps_destination_zip">USPS destination ZIP</string>
+    <string name="qr_data">QR data</string>
+    <string name="waiting_for_tracking">Waiting for tracking number</string>
+    <string name="qr_preview_description">Generated tracking QR code</string>
+    <string name="could_not_prepare_camera">Could not prepare a camera photo.</string>
+    <string name="no_camera_available">No camera app is available.</string>
+    <string name="camera_permission_required">Camera permission is required to take parcel photos.</string>
+    <string name="storage_permission_required">Storage permission is required to save camera photos.</string>
+    <string name="reading_parcel_label">Reading parcel label...</string>
+    <string name="could_not_read_photo">Could not read this photo.</string>
+    <string name="not_detected">Not detected</string>
+    <string name="no_tracking_found">No supported tracking number was found. Enter it manually.</string>
+    <string name="detected_confirm_message">Detected %1$s. Confirm before printing.</string>
+    <string name="enter_destination_zip">Enter the five-digit destination ZIP</string>
+    <string name="waiting_for_valid_tracking">Waiting for a valid tracking number</string>
+    <string name="could_not_generate_qr">Could not generate the QR code.</string>
+    <string name="print_job_name">Parcel %1$s</string>
+    <string name="label_media_name">2 x 2 inch label</string>
+    <string name="print_resolution_name">300 dpi</string>
+    <string name="tracking_qr_title">TRACKING QR</string>
+    <string name="edit_tracking_number">Edit tracking number</string>
+    <string name="edit_zip_code">Edit destination ZIP</string>
+    <string name="keyboard_clear">Clear</string>
+    <string name="keyboard_delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+</resources>

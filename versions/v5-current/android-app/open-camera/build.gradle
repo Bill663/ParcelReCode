@@ -1,0 +1,41 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdk = 36
+    compileOptions.encoding = 'UTF-8'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 36
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+    namespace 'net.sourceforge.opencamera'
+    buildFeatures {
+    }
+    //useLibrary 'android.test.mock'
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.7.1'
+
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.9.0"))
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    implementation 'androidx.exifinterface:exifinterface:1.4.2'
+}
